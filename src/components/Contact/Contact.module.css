@@ -24,10 +24,11 @@
 }
 
 .deleteButton {
+  color: azure;
   cursor: pointer;
-  border: 1px solid #4d4d4d;
+  border: 1px solid #fd0000;
   border-radius: 5px;
-  background-color: lightgray;
+  background-color: rgb(250, 170, 170);
   width: 64px;
   font-size: 16px;
   padding: 4px;
@@ -35,7 +36,7 @@
 }
 
 .deleteButton:hover {
-  background-color: darkgray;
+  background-color: rgb(255, 96, 101);
   transform: scale(1.05);
 }
 
